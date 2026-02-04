@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Reusable styles for our app */
+.card {
+  @apply bg-slate-900 p-4 rounded-xl shadow;
+}
+:root {
+  color-scheme: dark;
+}
