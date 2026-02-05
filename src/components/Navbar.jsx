@@ -6,7 +6,7 @@ const normal = "bg-slate-800 hover:bg-slate-700";
 
 export default function Navbar() {
   return (
-    <nav className="flex gap-2 mb-6">
+    <nav className="flex gap-2 mb-6 justify-center md:justify-start">
       <NavLink
         to="/"
         end

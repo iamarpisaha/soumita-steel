@@ -1,7 +1,7 @@
-import { Calendar, IndianRupee, ShoppingCart, Wallet } from "lucide-react";
+import { IndianRupee, ShoppingCart, Wallet } from "lucide-react";
 import { useEffect, useState } from "react";
-import { getSales } from "../services/sales.service";
 import { getPurchases } from "../services/purchase.service";
+import { getSales } from "../services/sales.service";
 import { formatDate } from "../utils/date";
 
 const Dashboard = () => {
