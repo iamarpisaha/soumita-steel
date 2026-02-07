@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import AddPurchases from "../components/AddPurchases";
 import LedgerTable from "../components/LedgerTable";
 import UpdatePurchases from "../components/UpdatePurchases";
-import { getPurchases } from "../services/purchase.service";
+import { deletePurchase, getPurchases } from "../services/purchase.service";
 
 export default function Purchase() {
   const [purchases, setPurchases] = useState([]);
