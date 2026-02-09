@@ -34,8 +34,8 @@ export default function App() {
       >
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/purchases" element={<Purchase />} />
-          <Route path="/sales" element={<Sales />} />
+          <Route path="/cash-out" element={<Purchase />} />
+          <Route path="/cash-in" element={<Sales />} />
         </Routes>
       </Suspense>
     </div>

@@ -16,17 +16,17 @@ export default function Navbar() {
       </NavLink>
 
       <NavLink
-        to="/purchases"
+        to="/cash-out"
         className={({ isActive }) => `${base} ${isActive ? active : normal}`}
       >
-        Purchases
+        Cash Out
       </NavLink>
 
       <NavLink
-        to="/sales"
+        to="/cash-in"
         className={({ isActive }) => `${base} ${isActive ? active : normal}`}
       >
-        Sales
+        Cash In
       </NavLink>
     </nav>
   );

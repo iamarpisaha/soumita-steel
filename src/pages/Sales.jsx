@@ -57,7 +57,7 @@ export default function Sales() {
 
   return (
     <div className="bg-slate-800 pt-6  rounded-lg space-y-6">
-      <h2 className="text-xl text-center font-semibold">Sales Ledger</h2>
+      <h2 className="text-xl text-center font-semibold">Cash In Ledger</h2>
       <div className="px-6">
         {singleSale ? (
           <UpdateSales
